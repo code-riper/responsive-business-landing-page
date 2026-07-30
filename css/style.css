@@ -1,0 +1,445 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head-nav{
+    display: none;
+}
+
+header{
+    
+}
+
+.head-c{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100vw;
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo h1{
+    text-transform: uppercase;
+}
+
+.head-b {
+    font-size: 1.5rem;
+    padding: 2px;
+    border: 0;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.logoc{
+    color: orange;
+}
+
+.hero{
+    background-image: url(../images/bg/floriane-vita-FyD3OWBuXnY-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+.hero,.heroc{
+    padding-top: 80px;
+}
+
+.hero-h{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.heroc p{
+    margin-top: 25px;
+    width: 80%;
+    margin-left: 10px;
+    line-height: 22px;
+}
+
+.hero-b,.footerul{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 30px;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    margin-left: 10px;
+}
+
+.hero-bc a{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+}
+
+.hero-bc-black a{
+    background-color: black;
+}
+
+.section2,.section3{
+    padding: 6%;
+}
+
+.section2cc{
+    display: flex;
+    margin: 30px auto;
+}
+
+.section2ccc,.section3ccc{
+    border: 4px solid orange;
+    width: 40%;
+    height: 0;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.section2cccc,.section7c p{
+    line-height: 20px;
+}
+
+.section2ccccc{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.section2cccccc{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.section2cccccc img{
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.section2ccccccb a{
+    background-color: orange;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    padding: 7px 15px;
+    color: white;
+}
+
+.section2ccccccb {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.section3c{
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 6%;
+}
+
+.section3cc{
+    display: flex;
+}
+
+.section3cc h1{
+    font-size: 1.8rem;
+}
+
+.section3ccc{
+    border: 2px solid orange;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.section3cccc{
+    margin-top: 40px;
+}
+
+.common{
+    width: 20%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.section3cccc h2,.section7{
+    margin-bottom: 20px;
+}
+
+.section3cccc p{
+    line-height: 22px;
+}
+
+.section3b a{
+    background-color: orange;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    color: white;
+}
+
+.section3b{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.section4,.section5,.section7{
+    padding: 6%;
+}
+
+.section4c{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.section4cc h2{
+    margin-bottom: 30px;
+}
+
+.section4cc p{
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+
+.n{
+    margin-top: 60px;
+}
+
+.section5 h2,.section6c p{
+    margin-bottom: 20px;
+}
+
+.section5c,iframe{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section6{
+    background-color: rgb(2, 2, 43);
+    padding: 10px;
+}
+
+.section6c {
+    color: white;
+    padding-top: 100px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section7 h2{
+    font-size: 2.2rem;
+}
+
+.s{
+    border: 1px solid black;
+    margin: 8px auto;
+}
+
+.section7c{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+}
+
+.section7c h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 100px 10px;
+}
+
+.footli{
+    border: 1px solid salmon;
+    width: 80%;
+    padding: 15px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+      
+}
+
+.footli a{
+    color: white;  
+}
+
+i{
+    padding-right: 20px;
+}
+
+.footerc h2{
+    margin-bottom: 20px;
+}
+
+.footerc p{
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.footerc h3{
+    color: orange;
+}
+
+.footerul a{
+    font-size: 1.5rem;
+}
+
+.footercopy{
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media (min-width:768px){
+
+    .heroc ,.heroc p{
+        padding: 10px;
+    }
+
+    .hero-h {
+    font-size: 2rem;
+    font-weight: 900;
+    width: 70%;
+}
+
+    .heroc p{
+        width: 70%;
+        font-size: 1.2rem;
+    }
+
+    .section2ccccc{
+        display: flex;
+        column-gap: 40px;
+    }
+
+    .section3ccccf,.section6{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 11px;
+    }
+
+    .section3cccc{
+        width: 32%;
+    }
+
+    .section4f{
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .section4c,.section4cc,.section6c,.section6cc{
+        width: 48%;
+    }
+
+    .section5,.section7{
+        text-align: center;
+    }
+
+    .section6cc{
+        padding-top: 200px;
+    }
+
+    .section7c{
+        margin-top: 50px;
+        padding: 50px;
+    }
+
+    .section7c p{
+        line-height: 30px;
+    }
+
+    .footerull,.footercc{
+        display: flex;
+        column-gap: 10px;
+    }
+}
+
+@media (min-width:1024px){
+    .head-nav{
+        display: inline-block;
+    }
+
+    .head-b{
+        display: none;
+    }
+
+    .head-navc{
+        display: flex;
+        column-gap: 40px;
+        color: white;
+        font-weight: 900;
+    }
+
+    .head-navc a{
+        color: black;   
+    }
+
+    .heroc{
+        width: 80%;
+        padding-top: 100px;
+    }
+
+    .footerc{
+        width: 33%;
+    }
+
+    .section2cccc{
+        /* border: 1px solid red; */
+        margin-top: 50px;
+        width: 80%;
+        font-size: 1.2rem;
+        line-height: 40px;
+    }
+
+    .section4c{
+        /* border: 1px solid red; */
+    }
+
+    .section4cc{
+        /* border: 1px solid red; */
+        padding-top: 100px;
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+
+    .section4cc p{
+        line-height: 30px;
+    }
+
+
+}
