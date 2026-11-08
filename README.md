@@ -41,22 +41,6 @@ This website is fully responsive and optimized for:
 
 ---
 
-## 📂 Project Structure
-
-```
-Responsive-Business-Landing-Page/
-│
-├── index.html
-├── README.md
-├── css/
-│   └── style.css
-├── images/
-│   ├── bg/
-│   └── illustrations/
-```
-
----
-
 ## 👨‍💻 Author
 
 **Faisal Salmani**
